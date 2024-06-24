@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 187, 233);
+    padding: 10px;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 3px;
+}
+
+.title-box {
+    text-align: center;
+}
+
+.dashed-border {
+    border: 1px dashed #333;
+    padding: 3px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.details {
+    font-size: 14px;
+    display: block;
+    margin-top: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.button input {
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.existing-account {
+    font-size: 14px;
+}
+
+.login-link {
+    color: orange;
+    text-decoration: underline;
+}
